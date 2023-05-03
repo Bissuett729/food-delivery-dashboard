@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Para la barra de desplazamiento vertical */
+::-webkit-scrollbar {
+    display: none;
+  }
