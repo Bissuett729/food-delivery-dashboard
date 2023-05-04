@@ -37,7 +37,7 @@ const DefaultLayout = () => {
           </div>
         </div>
         <div
-          className={`col-span-1 lg:col-span-2 fixed lg:static right-0 w-[80%] md:w-[60%] lg:w-full h-full overflow-y-scroll bg-light transition-all ${
+          className={`col-span-1 lg:col-span-2 fixed lg:static w-[80%] md:w-[60%] lg:w-full h-full overflow-y-scroll bg-light transition-all z-50 ${
             showRightMenu ? "-right-0" : "-right-full"
           } shadow-lg`}
         >

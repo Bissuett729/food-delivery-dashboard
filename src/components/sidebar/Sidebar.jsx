@@ -7,7 +7,7 @@ import MenuOption from "./MenuOption";
 
 const Sidebar = () => {
   return (
-    <div className="px-12 py-8">
+    <div className="px-12 lg:px-6 py-8">
       {/* Logo */}
       <div className="flex items-center justify-center mb-14">
         <p className="text-3xl font-bold">GoMeal</p>

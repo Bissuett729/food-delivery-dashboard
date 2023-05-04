@@ -9,11 +9,11 @@ const Header = () => {
         Hello, Miguel
       </h1>
       <div className="lg:col-span-3 flex items-center justify-center lg:justify-end">
-        <span className="relative py-2 w-full lg:w-[60%] bg-light rounded-md shadow-md">
-          <IoSearchOutline className="text-xl text-primary absolute" />
+        <span className="relative py-2 md:py-4 w-[80%] md:w-[90%] lg:w-[95%] bg-light rounded-xl">
+          <IoSearchOutline className="text-2xl text-primary absolute left-2" />
           <input
             type="text"
-            className="px-6 outline-none w-full"
+            className="px-10 outline-none w-full"
             placeholder="What do you want eat today..."
           />
         </span>

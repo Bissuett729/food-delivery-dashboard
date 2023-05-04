@@ -5,7 +5,7 @@ const MenuOption = ({ text, icon, active }) => {
   return (
     <Link
       to="/"
-      className={`flex items-center text-gray-800 font-medium px-8 py-4 gap-5  rounded-xl transition-colors ${
+      className={`flex items-center text-gray-800 font-medium px-8 lg:px-4 py-4 gap-5  rounded-xl transition-colors ${
         active ? "bg-primary text-light" : "hover:bg-primary hover:text-light"
       }`}
     >
